@@ -1,0 +1,243 @@
+html {
+    /* font-family: 'Dancing Script', cursive; */
+    font-family: 'Open Sans', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
+  }
+
+  .pop {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container {
+    width: 90%;
+    max-width: 1120px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+.container a {
+    color: black; /* Change the text color to black */
+    text-decoration: none; /* Remove the underline */
+}
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  // Header setup
+  header {
+    padding: 27px, 0;
+  }
+
+  #name {
+    padding: 20px;
+  }
+
+  .logo {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.04cm;
+  }
+
+  .logo span {
+    color: red;
+    box-sizing: border-box;
+    border: 2px solid black;
+    padding: 1%;
+  }
+
+  .header_menu li {
+    margin-left: 40px;
+    list-style-type: none;
+  }
+
+  .header_menu li a {
+    transition: .3s;
+  }
+  
+  .header_menu li a:hover {
+    color: #FE632A;
+    transition: .3s;
+  }
+
+  /* main */
+  #hero {
+    background-image: url(images/onigiri_top1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 540px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 90px;
+    overflow: hidden;
+  }
+
+  #hero::before {
+    content: '';
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.2;
+    z-index: 1;
+  }
+
+  .hero_inner {
+    z-index: 2;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero_inner p {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 16px;
+  }
+
+  .hero_inner h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+
+  /* Concept */
+  #concept {
+    margin-bottom: 120px;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: 500;
+    color: #FE632A;
+    margin-bottom: 40px;
+  }
+
+  #concept h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+
+  .column-2 {
+    width: 48%;
+  }
+
+  .text {
+    line-height: 2;
+  }
+
+  .concept_img {
+    background-image: url(images/rice.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+  }
+
+  .heading {
+   font-family: 'Dancing Script', cursive; 
+   font-size: 200px;
+   font-weight: 700;
+   color: #80BA4A;
+   opacity: 0.1;
+   position: absolute;
+   top: 0;
+   right: 0;
+   transform: translateY(-30%);
+   z-index: -1;
+  }
+
+  /* Menu section */
+  #menu {
+    margin-bottom: 120px;
+  }
+  .menu_inner {
+    margin-bottom: 40px;
+  }
+
+  /* Order calc service section */
+  #service {
+    margin-bottom: 120px;
+  }
+
+  .service_inner {
+    margin-bottom: 40px;
+  }
+
+  /* company section */
+  #company {
+    margin-bottom: 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+
+  #company dl {
+    max-width: 900px;
+    margin-left: auto;
+  }
+  
+  #company dt {
+    float: left;
+    width: 30%;
+    padding: 48px 0;
+    font-weight: 700;
+    border-bottom: solid 2px #D2ECBA;
+  }
+  
+  #company dd {
+    width: 70%;
+    padding: 48px 0;
+    border-bottom: solid 2px #D2ECBA;
+  }
+
+  /* bottom pictures */
+  .column-a {
+    background-image: url(images/footer_1.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+  }
+  .column-b {
+    background-image: url(images/footer_2.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+  }
+  .column-c {
+    background-image: url(images/footer_3.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+  }
+  .column-d {
+    background-image: url(images/footer_4.jpeg);
+    background-position: center;
+    background-size: cover;
+    width: 24%;
+    height: 270px;
+    border-radius: 20px;
+  }
+
+  /* footer */
+  footer {
+    text-align: center;
+    margin: 90px 0;
+  }
+
+  footer a {
+    text-decoration: none;
+  }
+  

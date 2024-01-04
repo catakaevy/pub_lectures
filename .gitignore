@@ -1,0 +1,11 @@
+# white list .gitignore
+# Ignore All
+*
+!*/
+
+# Allowlist
+!.git/*
+!.gitignore
+!.gitattributes
+!*.cpp
+!*.py

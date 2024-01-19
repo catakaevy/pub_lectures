@@ -105,7 +105,22 @@ html {
     font-size: 32px;
     font-weight: 700;
   }
+
+  /* Onigiri */
   
+  #onigiri h3 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 60px;
+  }
+
+  .concept_img_oni {
+    background-image: url(images/onigiri_description.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+  }
 
   /* Concept */
   #concept {
@@ -140,6 +155,7 @@ html {
     border-radius: 20px;
   }
 
+
   .heading {
    font-family: 'Dancing Script', cursive; 
    font-size: 200px;
@@ -157,9 +173,28 @@ html {
   #menu {
     margin-bottom: 120px;
   }
+
   .menu_inner {
     margin-bottom: 40px;
   }
+
+  .z_pic {
+    border-radius: 100%;
+    overflow: hidden;
+    width: 600px;
+    height: 350px;
+  }
+
+  .comment {
+    margin-top: 20px;
+  }
+
+  hr {
+    border: 1px solid orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  
 
   /* Order calc service section */
   #service {

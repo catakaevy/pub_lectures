@@ -126,12 +126,19 @@ function calculatePrice(event) {
 
     // Calculate the total amount of price & creating the result elements
     const resultItemContainer = document.querySelector('.result-list');
+    let total = 0;
     for (let onigiri of onigiriList) {
         const price = onigiri.price * onigiri.amount;
         const resultList = document.createElement('li');
         resultList.textContent = `${onigiri.type}: ${price} €`;
         resultItemContainer.appendChild(resultList);
+        total += price;
     }
+    // adding the final total result
+    const totalResult = document.querySelector('.total_result');
+    const totalPrice = document.createElement('span');
+    totalPrice.textContent = `Total: ${total} €`;
+    totalResult.appendChild(totalPrice);
 
     return true;
 }

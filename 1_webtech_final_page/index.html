@@ -7,6 +7,8 @@
   <title>Onigiri</title>
   <!-- style sheet -->
   <link rel="stylesheet" href="style.css">
+  <!-- javascript -->
+  <script src="main.js"></script>
   <!-- favicon.icon setup -->
   <link rel="shortcut icon" href="images/onigiri_page_logo.png" type="images/x-icon">
   <!-- Google fonts -->
@@ -31,7 +33,7 @@
             </ul>
         </nav>
     </div>
-    <h1 id="name" class="container">Japanese Onigiri Restaurant</h1>
+    <h2 id="title_name" class="container">Japanese Onigiri Restaurant</h2>
   </header>
 
   <main>
@@ -83,116 +85,137 @@
     
     <!-- Menu section  -->
     <section id="menu" class="container">
-        <div class="heading">Option</div>
-        <h2 class="title pop">Menu</h2>
-          <ol>
-            <li id="name">Shio Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_shio_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_shio.png">
-              </div>
-              <div class="comment">
-                <b>Shio nigiri</b> is a simple yet savory classic among the many varieties of onigiri, Japanese rice balls.
-                It is made with nothing more than steamed rice, salt, and often a strip of seaweed for wrapping.
-              </div>
+      <div class="heading">Option</div>
+      <h2 class="title pop">Menu</h2>
+        <div> 
+          <label class="name">Shio Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_shio_z.jpg" alt>
             </div>
-            <hr>
-            
-            <li id="name">Ume Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_ume_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_ume.png">
-              </div>
-              <div class="comment">
-                <b>Ume nigiri</b> is a delightful and refreshing variation of onigiri, Japanese rice balls, that showcases the harmonious balance of sweet, sour, and savory flavors. It features steamed rice encasing a filling of pickled umeboshi, plums known for their tangy and slightly salty taste.
-              </div>
+            <div class="pic">
+            <img src="images/oni_shio.png" alt>
             </div>
-            <hr>
+            <div class="comment">
+              <b>Shio nigiri</b> is a simple yet savory classic among the many varieties of onigiri, Japanese rice balls.
+              It is made with nothing more than steamed rice, salt, and often a strip of seaweed for wrapping.
+            </div>
+          </div>
+          <hr>
+          
+          <label class="name">Ume Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_ume_z.jpg" alt>
+            </div>
+            <div class="pic">
+            <img src="images/oni_ume.png" alt>
+            </div>
+            <div class="comment">
+              <b>Ume nigiri</b> is a delightful and refreshing variation of onigiri, Japanese rice balls, that showcases the harmonious balance of sweet, sour, and savory flavors. It features steamed rice encasing a filling of pickled umeboshi, plums known for their tangy and slightly salty taste.
+            </div>
+          </div>
+          <hr>
 
-            <li id="name">Konbu Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_konbu_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_konbu.png">
-              </div>
-              <div class="comment">
-                <b>Konbu nigiri</b> is a variation of Japanese rice balls, or onigiri, that is enhanced with the savory, umami flavor of kombu, a type of edible seaweed. The kombu is typically simmered in dashi, a Japanese soup stock, to extract its rich flavors and soften the seaweed.
-              </div>
+          <label class="name">Konbu Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_konbu_z.jpg" alt>
             </div>
-            <hr>
+            <div class="pic">
+            <img src="images/oni_konbu.png" alt>
+            </div>
+            <div class="comment">
+              <b>Konbu nigiri</b> is a variation of Japanese rice balls, or onigiri, that is enhanced with the savory, umami flavor of kombu, a type of edible seaweed. The kombu is typically simmered in dashi, a Japanese soup stock, to extract its rich flavors and soften the seaweed.
+            </div>
+          </div>
+          <hr>
 
-            <li id="name">Karage Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_karage_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_karage.png">
-              </div>
-              <div class="comment">
-                <b>Karage nigiri</b> is a unique and flavorful variation of onigiri, Japanese rice balls, that features a crispy coating of karaage, deep-fried chicken pieces. 
-              </div>
+          <label class="name">Karage Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_karage_z.jpg" alt>
             </div>
-            <hr>
+            <div class="pic">
+            <img src="images/oni_karage.png" alt>
+            </div>
+            <div class="comment">
+              <b>Karage nigiri</b> is a unique and flavorful variation of onigiri, Japanese rice balls, that features a crispy coating of karaage, deep-fried chicken pieces. 
+            </div>
+          </div>
+          <hr>
 
-            <li id="name">Tunamayo Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_tunamayo_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_tunamayo.png">
-              </div>
-              <div class="comment">
-                <b>Tuna mayo nigiri</b> is a delectable and popular variation of onigiri, Japanese rice balls, that features a creamy and savory filling of canned tuna mixed with mayonnaise and soy sauce.
-              </div>
+          <label class="name">Tunamayo Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_tunamayo_z.jpg" alt>
             </div>
-            <hr>
+            <div class="pic">
+            <img src="images/oni_tunamayo.png" alt>
+            </div>
+            <div class="comment">
+              <b>Tuna mayo nigiri</b> is a delectable and popular variation of onigiri, Japanese rice balls, that features a creamy and savory filling of canned tuna mixed with mayonnaise and soy sauce.
+            </div>
+          </div>
+          <hr>
 
-            <li id="name">Mentaiko Nigiri</li>
-            <div class="menuitem flex">
-              <div class="z_pic">
-                <img src="images/oni_mentai_z.jpg">
-              </div>
-              <div class="pic">
-              <img src="images/oni_mentai.png">
-              </div>
-              <div class="comment">
-                <b>Mentaiko nigiri</b> is a bold and savory variation of onigiri, Japanese rice balls, that features a spicy and umami-packed filling of marinated pollock roe, or mentaiko. 
-              </div>
+          <label class="name">Mentaiko Nigiri</label>
+          <div class="menuitem flex">
+            <div class="z_pic">
+              <img src="images/oni_mentai_z.jpg" alt>
             </div>
-          </ol>  
-        </div>
+            <div class="pic">
+            <img src="images/oni_mentai.png" alt>
+            </div>
+            <div class="comment">
+              <b>Mentaiko nigiri</b> is a bold and savory variation of onigiri, Japanese rice balls, that features a spicy and umami-packed filling of marinated pollock roe, or mentaiko. 
+            </div>
+          </div>
+        </div>  
     </section>
 
     <!-- Order & Price calculator Service section (js)-->
     <section id="service" class="container">
-        <h2 class="title pop">Order Service</h2>
+        <h2 class="title pop">Price & Order Service</h2>
         <div class="heading">Try</div>
-        <div class="service_inner flex">
-          <ol>
-            <li>Shio Nigiri</li>
-            <li>Ume Nigiri</li>
-            <li>Konbu Nigiri</li>
-            <li>Karage Nigiri</li>
-            <li>Mentaiko Nigiri</li>
-            <label for="">Total: </label>
-            <button type="button">Execute Calculation</button>
-          </ol>
-            <div class="">
-
+        <h3>How many onigiris 🍙 would you like to try? (Max amount limitation is 50 in total)</h3>
+        <div class="flex">
+          <div class="column-2">
+            <div class="listitem">
+              <label>Shio Nigiri: <span id="shio_price">3.0</span> €</label>
+              <input type="text" id="shio_amount" placeholder="amount"> 
             </div>
-            <div class="">
-
+            <div class="listitem">
+              <label>Ume Nigiri: <span id="ume_price">3.5</span> €</label>
+              <input type="text" id="ume_amount" placeholder="amount"> 
             </div>
+            <div class="listitem">
+              <label>Konbu Nigiri: <span id="konbu_price">3.5</span> €</label>
+              <input type="text" id="konbu_amount" placeholder="amount"> 
+            </div>
+            <div class="listitem">
+              <label>Karage Nigiri: <span id="karage_price">4.5</span> €</label>
+              <input type="text" id="karage_amount" placeholder="amount"> 
+            </div>
+            <div class="listitem">
+              <label>Tunamayo Nigiri: <span id="tunamayo_price">4.0</span> €</label>
+              <input type="text" id="tunamayo_amount" placeholder="amount"> 
+            </div>
+            <div class="listitem">
+              <label>Mentaiko Nigiri: <span id="mentaiko_price">4.0</span> €</label>
+              <input type="text" id="mentaiko_amount" placeholder="amount"> 
+            </div>
+            <hr>
+            <label>Calculation: </label>
+            <button type="button" id="execute">Click & Execute</button>
+          </div>
+          <div class="column-2 service_img"></div>
+          <div class="column-2">
+            <b>The result is:</b><br>
+            <!-- the hidden html element's creation in js-->
+            <ol class="result-list"></ol>
+            <h5 id="hidden_part">Well done!!</h5>
+          </div>
         </div>
     </section>
 

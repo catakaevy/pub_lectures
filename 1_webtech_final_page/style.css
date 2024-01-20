@@ -27,12 +27,15 @@ html {
     align-items: center;
   }
 
-  // Header setup
   header {
-    padding: 27px, 0;
+    padding: 27px 0;
   }
 
-  #name {
+  #title_name {
+    padding: 20px;
+  }
+
+  .name {
     padding: 20px;
   }
 
@@ -264,6 +267,31 @@ html {
     width: 24%;
     height: 270px;
     border-radius: 20px;
+  }
+
+  /* Price & Order Service */
+  .flex listitem {
+    display: flex;
+  }
+
+  .service_img {
+    background-image: url(images/oni_amount.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 340px;
+    border-radius: 20px;
+  }
+
+  .flex label {
+    display: inline-block; 
+    margin-right: 10px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  .flex input {
+    display: inline-block;
+    width: 50px;
   }
 
   /* footer */
